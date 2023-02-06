@@ -1,0 +1,79 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  background-image: url('media/back.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.App {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: black;
+  width: 25%;
+}
+p {
+  color: white;
+}
+h1 {
+  font-style: italic;
+  color: aquamarine;
+}
+.social-container {
+  text-align: center;
+}
+.fa-bandcamp {
+  margin-right: 1rem;
+  color: aquamarine;
+}
+.fa-facebook {
+  margin-right: 1rem;
+  color: aquamarine;
+}
+
+.fa-instagram {
+  color: aquamarine;
+}
+
+@media only screen and (max-width: 600px) {
+  /* MOBILE */
+  body {
+    background-position-x: center;
+  }
+  .App {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 1px solid aquamarine;
+    margin-top: 5rem;
+    width: 90%;
+    padding-bottom: 5rem;
+  }
+  p {
+    border: 1px solid aquamarine;
+    width: 50%;
+    padding: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1440px) {
+  /* Tablet and smaller monitors */
+  body {
+    background-position-x: center;
+  }
+  .App {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    padding-bottom: 5rem;
+  }
+  p {
+    background-color: black;
+    border: 1px solid aquamarine;
+    width: 50%;
+    padding: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+}
